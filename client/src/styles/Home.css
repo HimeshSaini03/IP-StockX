@@ -1,0 +1,57 @@
+.home-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+  }
+  
+  .home-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInUp 1.2s ease;
+  }
+  
+  .home-btn {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    animation: bounceIn 1.5s ease;
+  }
+  
+  .home-btn:hover {
+    transform: scale(1.1);
+    background-color: #e67e22;
+  }
+  
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes bounceIn {
+    0% { transform: scale(0.8); opacity: 0; }
+    60% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); }
+  }

@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  .logo img {
+    height: 40px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  .pricing-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .pricing-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+  }
